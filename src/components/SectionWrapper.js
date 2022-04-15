@@ -23,10 +23,20 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.descriptionText}`}>{description}</p>
           {showBtn && (
-            <Button
-              assetUrl={assets.expo}
-              link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
-            />
+            <div className='flex align-middle'>
+              <div className='mr-6 '> 
+              <Button
+                assetUrl={assets.expo}
+                link="exp://exp.host/@javiersanchezdelago/ReactNative-NFTMarket?release-channel=default"
+              />
+              </div>
+
+              <div className={styles.qr}> 
+              <img src={assets.qr} alt="QR" />
+              </div>
+              
+            </div>
+
           )}
         </div>
         <div

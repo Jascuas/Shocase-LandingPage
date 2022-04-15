@@ -8,14 +8,14 @@ const App = () => {
     <>
       <SectionWrapper
         title="You own store of Nifty NFTs. Start Selling & Growing"
-        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using Surface Marketplace."
         showBtn
         mockupImg={assets.homeHero}
         banner="banner"
       />
       <SectionWrapper
         title="Smart User Interface Marketplace"
-        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+        description="Experience a buttery UI of Surface NFT Marketplace. Smooth constant colors of a fluent UI design."
         mockupImg={assets.homeCards}
         reverse
       />
@@ -36,7 +36,7 @@ const App = () => {
 
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
         <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {" "}
-          <span className="bold">JavaScript Mastery</span>
+          <span className="bold">Jascuas</span>
         </p>
       </div>
     </>

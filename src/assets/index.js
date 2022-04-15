@@ -7,6 +7,9 @@ import javascript from "./javascript.png";
 import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
+import qr from "./QR.svg";
+import blender from "./blender.png";
+import photoshop from "./photoshop.png";
 
 export default {
   homeHero,
@@ -18,4 +21,7 @@ export default {
   react,
   scene,
   mockup,
+  qr,
+  blender,
+  photoshop
 };
