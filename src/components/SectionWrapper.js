@@ -27,12 +27,8 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
               <div className='mr-6 '> 
               <Button
                 assetUrl={assets.expo}
-                link="exp://exp.host/@javiersanchezdelago/ReactNative-NFTMarket?release-channel=default"
+                link="https://expo.dev/@javiersanchezdelago/ReactNative-NFTMarket?serviceType=classic&distribution=expo-go"
               />
-              </div>
-
-              <div className={styles.qr}> 
-              <img src={assets.qr} alt="QR" />
               </div>
               
             </div>
